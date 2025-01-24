@@ -37,6 +37,16 @@ Run: `./dirtree.py . --filters "*.cpp,*.md,*.wav,_" --ignore "build/*,.git/*"`
 and you would get.
 
 ```
+📁 tetris/
+  📄 README.md
+  📄 main.py  
+```
+
+Or when you have a bit more files :)
+
+```
+./dirtree.py . --filters "*.cpp,*.md,*.wav,_" --ignore "build/*,.git/*"
+
 📁 my-awesome-game/
  📄 README.md
  📄 LICENSE
