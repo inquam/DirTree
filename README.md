@@ -32,12 +32,33 @@ venv
 
 But you don't want to show all that and still make an easy overview of everything relevant. DirTree helps you do it in no time.
 
-Run: `./dirtree.py /home/foo/workspace/tetris/ --filters "*.py,*.md" --ignore ".git,.idea,venv"`
+Run: `./dirtree.py . --filters "*.cpp,*.md,*.wav,_" --ignore "build/*,.git/*"`
 
 and you would get.
 
 ```
-📁 tetris/
-  📄 README.md
-  📄 main.py  
+📁 my-awesome-game/
+ 📄 README.md
+ 📄 LICENSE
+ 📁 src/
+   📄 sweet_gameplay.cpp
+   📄 epic_graphics.cpp
+   📄 ninja_physics.cpp
+   📁 enemies/
+     📄 angry_cucumber
+     📄 deadly_tomato.cpp
+     📄 killer_carrot.cpp
+     📄 vegetable_boss.cpp
+   📁 powerups/
+     📄 coffee_boost
+     📄 pizza_shield.cpp
+     📄 taco_time.cpp
+ 📁 assets/
+   📁 sounds/
+     📄 veggie_scream.wav
+     📄 chomp
+     📄 victory_fanfare.wav
+   📁 sprites/
+     📄 hero.png
+     📄 background
 ```
