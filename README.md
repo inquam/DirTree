@@ -32,7 +32,7 @@ venv
 
 But you don't want to show all that and still make an easy overview of everything relevant. DirTree helps you do it in no time.
 
-Run: `./dirtree.py . --filters "*.cpp,*.md,*.wav,_" --ignore "build/*,.git/*"`
+Run: `./dirtree.py . --filters "*.py,*.md" --ignore "build/*,.git/*"`
 
 and you would get.
 
